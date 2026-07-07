@@ -2,53 +2,47 @@ package edu.uam.educore.model.infraestructura;
 
 public class Aula {
 
-    private int id;
-    private String numero;
-    private int capacidad;
-    private TipoAula tipo;
-    private Edificio edificio;
-        
-    ///prueba josue git   ---- 1
-    ///jimenez 1234
-    ///pruebaa internas josue 
-    ///
-    
-    
-    public Aula(
-            int id,
-            String numero,
-            int capacidad,
-            TipoAula tipo,
-            Edificio edificio) {
+  private int id;
+  private String numero;
+  private int capacidad;
+  private TipoAula tipo;
+  private Edificio edificio;
 
-        this.id = id;
-        this.numero = numero;
-        this.capacidad = capacidad;
-        this.tipo = tipo;
-        this.edificio = edificio;
-    }
+  /// prueba josue git   ---- 1
+  /// jimenez 1234
+  /// pruebaa internas josue
+  ///
 
-    public int getId() {
-        return id;
-    }
+  public Aula(int id, String numero, int capacidad, TipoAula tipo, Edificio edificio) {
 
-    public String getNumero() {
-        return numero;
-    }
+    this.id = id;
+    this.numero = numero;
+    this.capacidad = capacidad;
+    this.tipo = tipo;
+    this.edificio = edificio;
+  }
 
-    public int getCapacidad() {
-        return capacidad;
-    }
+  public int getId() {
+    return id;
+  }
 
-    public TipoAula getTipo() {
-        return tipo;
-    }
+  public String getNumero() {
+    return numero;
+  }
 
-    public Edificio getEdificio() {
-        return edificio;
-    }
+  public int getCapacidad() {
+    return capacidad;
+  }
 
-    public String getInfo() {
-        return numero + " | " + tipo + " | Capacidad: " + capacidad;
-    }
+  public TipoAula getTipo() {
+    return tipo;
+  }
+
+  public Edificio getEdificio() {
+    return edificio;
+  }
+
+  public String getInfo() {
+    return numero + " | " + tipo + " | Capacidad: " + capacidad;
+  }
 }
